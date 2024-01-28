@@ -1,0 +1,14 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "main": "dist/app.js",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^3.0.3",
+    "ts": "^0.2.2"
+  },
+  "scripts": {
+    "build": "tsc && node dist/app.js",
+    "start": "node dist/app.js"
+  }
+}
